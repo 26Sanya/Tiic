@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clipChildren="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/countries"
+        >
+     <TextView
+                android:id="@+id/tv_country_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_country_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+
+
+        <TextSwitcher
+            android:id="@+id/ts_description"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="15dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/ts_description">
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:layout_marginBottom="20dp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="@dimen/recycler_view_left_offset"
+            android:clipChildren="false"
+            android:overScrollMode="never"
+            app:layoutManager="com.sanya.yogyam.CardSliderLayoutManager"
+            app:viewUpdater="com.sanya.yogyam.examples.simple.cards.CardsUpdater"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

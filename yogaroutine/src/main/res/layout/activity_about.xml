@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:padding="10.0dip"
+        android:background="#dddddd"
+        android:id="@+id/linearlayout"
+        android:orientation="vertical">
+
+    <ImageView android:layout_height="200dp"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:id="@+id/imageView4"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo1"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <io.rmiri.buttonloading.ButtonLoading
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/btn"
+            app:BL_backgroundColor="#ffffff"
+            app:BL_circleColor="#00AFEF"
+            app:BL_circleColorSecond="#80AFEF"
+            app:BL_enable="true"
+            app:BL_stateShow="normal"
+            app:BL_text="GO TO APP"
+            app:BL_textColor="#FFFFFF"
+            app:BL_textSize="14sp" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/cardview">
+
+
+    <RelativeLayout android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:id="@+id/relativelayout">
+        <ImageView android:layout_height="45dp"
+            android:layout_width="fill_parent"
+            android:src="@drawable/hindi"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/cardview2"
+            android:layout_marginTop="8dp">
+
+
+    <RelativeLayout android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/relativelayout2">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="12.0dip"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="ABOUT YOGYAM"
+        android:layout_marginBottom="15.0dip"
+        android:textColor="#ff000000"
+        android:textStyle="bold"
+        android:textSize="20.0sp"/>
+
+    <TextView android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/textView32"
+        android:layout_marginStart="15.0dip"
+        android:text="YOGYAM encourages you to make yoga part of your everyday routine.This is a fitness app that’s inspired by yoga.It’ll show you more than 30 diseases,on the basis of which more than 100 YOGA ASANAS or POSES are listed.\nThis application also focuses on the fact that not all postures are recommendable for all the individuals.It includes a CAUTION feature that enables the user to know when NOT to practice any particular Asanas.\nCombine yoga with other exercises and breathing techniques to get the most out of your practice.\nThis is an initial version which gives information about the asanas and in what diseases they can be effective.The next version will aim to improve the understanding of the postures for the users." android:layout_marginBottom="20.0dip" android:textColor="#ff607d8b" android:textSize="15.0sp" android:layout_below="@id/textView2" android:layout_marginLeft="22.0dip"/>
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/cardview3"
+            android:layout_marginTop="8.0dip">
+            <LinearLayout android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical">
+
+    <TextView android:layout_height="25.0dip"
+        android:layout_width="150.0dip"
+        android:id="@+id/textView33"
+        android:layout_marginTop="12.0dip"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="TIIC"
+        android:textColor="#ff000000"
+        android:textStyle="bold"
+        android:textSize="20.0dip"
+        android:layout_marginLeft="22.0dip"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/textView31"
+        android:layout_marginTop="15.0dip"
+        android:text="Technology Innovation and Incubation Centre is the Industrial Interface of Atal Bihari Vajpayee-Indian Institute of Information Technology and Management, Gwalior established in 2008. A registered society under MP Act 1973. This centre has been set up due the initiatives taken by IIITM faculty,students and strong alumni base. " android:layout_marginBottom="20.0dip" android:textColor="#ff607d8b" android:textSize="18.0dip" android:layout_below="@id/textView33" android:layout_marginLeft="22.0dip" android:layout_alignStart="@id/textView33" android:layout_alignLeft="@id/textView33"/>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/cardview4" android:layout_marginTop="8.0dip">
+
+            <RelativeLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:id="@+id/relativelayout4">
+
+    <TextView android:layout_height="35.0dip"
+        android:layout_width="250.0dip"
+        android:id="@+id/textView34"
+        android:layout_marginTop="12.0dip" android:layout_alignParentStart="true" android:layout_marginStart="22.0dip" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:text="DEVELOPERS" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp" android:layout_marginLeft="22.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView35" android:layout_marginStart="15.0dip" android:text="The Application is developed by a student of ABV-IIITM Gwalior pursuing Integrated Post Graduate-3rd year under the guidance of Dr. Anurag Shrivastava ,Associate Professor at ABV-IIITM Gwalior.This app was inspected by Yogi Acharya Shri S.P. Sharma.Feel Free to contact us for any feedback or suggestions are warm welcome. \nFaculty Mentor :\nDr. Anurag Shrivastava \nDeveloper: \nSanya Verma" android:layout_marginBottom="20.0dip" android:textColor="#ff607d8b" android:textSize="17.0dip" android:layout_below="@id/textView34" android:layout_marginLeft="22.0dip"/>
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:id="@+id/cardview5" android:layout_marginTop="8.0dip">
+
+
+    <RelativeLayout android:layout_height="fill_parent"
+        android:layout_width="fill_parent" android:id="@+id/relativelayout5">
+
+    <TextView android:layout_height="35.0dip"
+        android:layout_width="250.0dip"
+        android:id="@+id/textView36" android:layout_marginTop="12.0dip" android:layout_alignParentStart="true" android:layout_marginStart="22.0dip" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:text="ABV-IIITM" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp" android:layout_marginLeft="22.0dip"/>
+
+    <TextView android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/textView37"
+        android:layout_marginStart="15.0dip" android:text="Atal Bihari Vajpayee Indian Institute of Information Technology and Management,Gwalior (ABV-IIITM Gwalior),is a university located in Gwalior, Madhya Pradesh, India, and has been ranked 22nd in the Management (B-School) category of National Institutional Ranking Framework (NIRF) rankings, published by Ministry of Human Resource Development (MHRD), Government of India in 2016.Established in 1997 and named for Atal Bihari Vajpayee, the institute obtained the status of Deemed University in 2001 and was recognized as an Institute of National Importance." android:layout_marginBottom="20.0dip" android:textColor="#ff607d8b" android:textSize="15.0sp" android:layout_below="@id/textView36" android:layout_marginLeft="22.0dip"/>
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+
+<android.support.v7.widget.CardView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/cardview6" android:layout_marginTop="8.0dip">
+
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/linearlayout2" android:orientation="vertical">
+
+    <TextView android:layout_height="30.0dip"
+        android:layout_width="150.0dip"
+        android:id="@+id/textView44"
+        android:layout_marginTop="14.0dip" android:layout_alignParentStart="true" android:layout_marginStart="22.0dip" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:text="CONTACT US" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0dip" android:layout_marginLeft="22.0dip"/>
+
+    <TextView android:layout_height="30.0dip"
+        android:layout_width="fill_parent"
+        android:id="@+id/textView38" android:layout_alignParentLeft="true" android:text="MENTOR- Dr. Anurag Shrivastava" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0dip" android:layout_marginLeft="22.0dip" android:layout_alignBottom="@id/textView44"/>
+
+    <TextView android:layout_height="30.0dip" android:layout_width="180.0dip" android:id="@+id/textView39" android:text="\ 09826189049" android:layout_marginBottom="20.0dip" android:textColor="#ff607d8b" android:textSize="17.0dip" android:layout_marginLeft="22.0dip" android:layout_alignStart="@id/textView38" android:layout_alignLeft="@id/textView38" android:layout_alignParentBottom="true"/>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_height="90.0dip"
+        android:layout_width="fill_parent"
+        android:id="@+id/cardview9" android:layout_marginTop="8.0dip">
+
+
+
+    <RelativeLayout android:layout_height="fill_parent"
+        android:layout_width="fill_parent" android:id="@+id/relativelayout9">
+
+    <TextView android:layout_height="30.0dip"
+        android:layout_width="fill_parent" android:id="@+id/textView50" android:layout_marginTop="14.0dip" android:layout_alignParentStart="true" android:layout_marginStart="22.0dip" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:text="Developer-Sanya Verma" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0dip" android:layout_marginLeft="22.0dip"/>
+
+    <TextView android:layout_height="30.0dip"
+        android:layout_width="180.0dip" android:id="@+id/textView45" android:text="\ 08461922412" android:layout_marginBottom="20.0dip" android:textColor="#ff607d8b" android:textSize="17.0dip" android:layout_alignStart="@id/textView50" android:layout_alignLeft="@id/textView50" android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+</ScrollView>
