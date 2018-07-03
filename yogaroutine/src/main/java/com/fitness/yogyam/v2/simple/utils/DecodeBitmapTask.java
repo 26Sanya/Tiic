@@ -1,4 +1,4 @@
-package com.sanya.yogyam.examples.simple.utils;
+package com.sanya.yogyam.v2.simple.utils;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -14,7 +14,7 @@ import android.os.Build;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 
-import com.sanya.yogyam.examples.simple.R;
+import com.sanya.yogyam.v2.simple.R;
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;

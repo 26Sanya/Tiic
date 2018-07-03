@@ -1,4 +1,4 @@
-package com.sanya.yogyam.examples.simple.cards;
+package com.sanya.yogyam.v2.simple.cards;
 
 import android.os.Build;
 import android.support.annotation.NonNull;

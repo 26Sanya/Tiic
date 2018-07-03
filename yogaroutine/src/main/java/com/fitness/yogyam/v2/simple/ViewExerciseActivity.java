@@ -1,4 +1,4 @@
-package com.sanya.yogyam.examples.simple;
+package com.sanya.yogyam.v2.simple;
 
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -15,12 +15,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 import com.hanks.htextview.HTextView;
-import com.hanks.htextview.HTextViewType;
-
-import pl.droidsonroids.gif.GifImageView;
 
 public class ViewExerciseActivity extends AppCompatActivity {
 
@@ -28,8 +25,8 @@ public class ViewExerciseActivity extends AppCompatActivity {
     private String caution;
     private TextView explainhow,explain;
     private String how,release;
-    private GifImageView imageDetail;
-    private int imageId;
+    private ImageView imageDetail;
+    private String url;
     private String name;
     private TextView title,text1,text2;
     HTextView hTextView;
@@ -44,12 +41,11 @@ public class ViewExerciseActivity extends AppCompatActivity {
         text2=findViewById(R.id.text2);
        imageDetail =  findViewById(R.id.image_detail);
 
+
         if (getIntent() != null) {
-            imageId = getIntent().getIntExtra("imageId", -1);
+            url= getIntent().getStringExtra("imageId");
             name = getIntent().getStringExtra("name");
 
-            imageDetail.setImageResource(imageId);
-            imageDetail.setBackgroundResource(imageId);
             title.setText(name);
             if (this.name.equals("Lolasana")) {
                 this.how = "Start from Padmasana and bring the hands to the floor on the outside of the thighs.\nInhale and press down into the palms as you engage the abdomen and lift the legs and buttocks off the floor.\nTake several breaths and release.";
@@ -506,6 +502,9 @@ public class ViewExerciseActivity extends AppCompatActivity {
             this.title.setText(this.name);
             this.explainhow.setText(this.how);
             this.explain.setText(this.release);
+        Glide.with(this).load(url)
+                .apply(new RequestOptions().placeholder(R.drawable.loading))
+                .into(imageDetail);
         }
 
     private void setCAution() {

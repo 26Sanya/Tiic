@@ -1,4 +1,4 @@
-package com.sanya.yogyam.examples.simple;
+package com.sanya.yogyam.v2.simple;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -22,8 +22,8 @@ import android.widget.ViewSwitcher;
 
 import com.sanya.yogyam.CardSliderLayoutManager;
 import com.sanya.yogyam.CardSnapHelper;
-import com.sanya.yogyam.examples.simple.cards.SliderAdapter;
-import com.sanya.yogyam.examples.simple.utils.DecodeBitmapTask;
+import com.sanya.yogyam.v2.simple.cards.SliderAdapter;
+import com.sanya.yogyam.v2.simple.utils.DecodeBitmapTask;
 
 
 public class MainActivity extends AppCompatActivity {

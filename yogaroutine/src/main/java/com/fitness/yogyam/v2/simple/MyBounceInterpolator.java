@@ -1,4 +1,4 @@
-package com.sanya.yogyam.examples.simple;
+package com.sanya.yogyam.v2.simple;
 
 import android.view.animation.Interpolator;
 

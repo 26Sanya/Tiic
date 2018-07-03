@@ -1,4 +1,4 @@
-package com.sanya.yogyam.examples.simple.utils;
+package com.sanya.yogyam.v2.simple.utils;
 
 import android.graphics.Bitmap;
 import android.util.LruCache;

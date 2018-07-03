@@ -1,4 +1,4 @@
-package com.sanya.yogyam.examples.simple.cards;
+package com.sanya.yogyam.v2.simple.cards;
 
 import android.graphics.Bitmap;
 import android.support.annotation.DrawableRes;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 
-import com.sanya.yogyam.examples.simple.R;
-import com.sanya.yogyam.examples.simple.utils.DecodeBitmapTask;
+import com.sanya.yogyam.v2.simple.R;
+import com.sanya.yogyam.v2.simple.utils.DecodeBitmapTask;
 
 public class SliderCard extends RecyclerView.ViewHolder implements DecodeBitmapTask.Listener {
 
